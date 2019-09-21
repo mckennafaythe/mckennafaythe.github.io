@@ -26,6 +26,6 @@ h2 {
      padding: 20px;
      min-height: 250px;
  }
- a {
+ a:link, a:visited {
      color: #c55c5c;
  }

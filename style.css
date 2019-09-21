@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 
-header, footer{
+header, footer {
     background-color: #79fff4;
     padding: 20px;
 }
@@ -17,7 +17,7 @@ h1 {
 header img {
     float: right;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5%;
 }
 
 h2 {

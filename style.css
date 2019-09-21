@@ -18,6 +18,7 @@ h1 {
 header img {
     float: right;
     padding: 20px;
+    border-radius: 10px;
 }
 
 h2 {

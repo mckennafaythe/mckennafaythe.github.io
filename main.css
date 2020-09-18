@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: baskerville, serif;
+  color: black;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid #bbb;
+}
+
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  padding: 0.5rem;
+  max-width: 1000px;
+}
+
+header,
+footer,
+footer a {
+  border-radius: 10px;
+  text-align: center;
+  background-color: tan;
+  color: whitesmoke;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+}

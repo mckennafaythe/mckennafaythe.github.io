@@ -28,7 +28,7 @@ footer,
 footer a {
   border-radius: 10px;
   text-align: center;
-  background-color: tan;
+  background-color: rgb(12, 11, 54);
   color: whitesmoke;
 }
 
@@ -40,5 +40,5 @@ header img {
 
 footer {
   font-family: arial, sans-serif;
-  
+
 }

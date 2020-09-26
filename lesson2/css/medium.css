@@ -14,7 +14,11 @@
 
     section {
         padding: 0 2em 2em 2em;
-        max-width: 100%;
       }
+
+      main section p:nth-child(3) {
+        max-width: 100%;
+    }
+
 
   }

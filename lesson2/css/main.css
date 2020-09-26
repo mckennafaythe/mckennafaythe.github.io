@@ -23,7 +23,7 @@ body {
   }
 
   img {
-    max-width: 400px;
+    max-width: 100%;
   }
   
   section {
@@ -55,6 +55,10 @@ body {
     main {
       grid-template-columns: 1fr 1fr 1fr;
     }
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
 
     body {
         max-width: 1390px;

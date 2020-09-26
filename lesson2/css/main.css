@@ -25,6 +25,10 @@ body {
   img {
     max-width: 100%;
   }
+
+  h2 {
+      height: 2em;
+  }
   
   section {
     padding: 0 2em;

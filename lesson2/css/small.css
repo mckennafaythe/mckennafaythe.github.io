@@ -29,11 +29,6 @@ body {
     background-color: rgb(212, 238, 255);
   }
 
-  /*controls image size*/
-  img {
-    max-width: 100%;
-  }
-
   /*Keeps column heights consistent with longer headers*/
   section h2 {
       height: 2em;

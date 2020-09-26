@@ -1,18 +1,41 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; ****************************/
-
-main {
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  main {
     max-width: 700px;
     display: grid;
     grid-template-columns: 1fr;
-}
-
-/*medium view *************************************/
-
-@media only screen and (min-width:37.5em) {
+    margin: 0 auto;
+  }
+  
+  h2 {
+    height: 2.5em;
+  }
+  
+  section {
+    padding: 0 2em;
+  }
+  
+  /*medium view *************************************/
+  
+  @media only screen and (min-width: 37.5em) {
     main {
-        grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
-
-    
-}
+  }
+  /*large view *************************************/
+  
+  @media only screen and (min-width: 60em) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  

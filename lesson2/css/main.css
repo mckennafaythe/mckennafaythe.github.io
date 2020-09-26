@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
   }
 
+  section:nth-child(2) {
+    background-color: teal;
+  }
+
   img {
     max-width: 400px;
   }

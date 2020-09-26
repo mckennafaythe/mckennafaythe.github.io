@@ -3,6 +3,7 @@ font-family: 'Source Sans Pro', sans-serif; ****************************/
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    margin: 0 auto;
   }
   
   h1, h2, h3 {
@@ -11,8 +12,7 @@ body {
   
   main {
     display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
+    grid-template-columns: 1fr:
   }
 
   section:nth-child(2) {

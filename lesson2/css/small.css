@@ -40,7 +40,7 @@ body {
   
   /*side padding for columns*/
   section {
-    padding: 0 6em;
+    padding: 0 6em 2em 6em;
   }
 
   /*breathing room on bottom for link*/

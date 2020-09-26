@@ -17,5 +17,9 @@
       footer a {
           border-radius: 10px;
     }
+
+    main section p:nth-child(3) {
+      text-align: left;
+    }
   }
   

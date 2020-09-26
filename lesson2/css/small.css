@@ -46,6 +46,7 @@ body {
   /*breathing room on bottom for link*/
   .blockLink {
       margin-bottom: 10px;
+      display: block;
   }
 
   /*unique colors for links*/

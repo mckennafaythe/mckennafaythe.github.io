@@ -9,8 +9,8 @@ body {
       margin: 0 auto;
   }
   
-  h1, h2, h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+  h1, section h2 {
+    font-family: 'Yeseva One', cursive;
   }
   
   main {
@@ -45,6 +45,18 @@ body {
 
   a:hover, a:active {
     color: rgb(92, 21, 21)
+  }
+
+  header,
+footer,
+footer a {
+  text-align: center;
+  background-color: rgb(12, 11, 54);
+  color: whitesmoke;
+}
+
+  #moddate {
+    font-size: 12px;
   }
   
   /*medium view *************************************/

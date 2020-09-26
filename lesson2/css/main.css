@@ -26,7 +26,7 @@ body {
     max-width: 100%;
   }
 
-  h2 {
+  section h2 {
       height: 2em;
   }
   
@@ -38,14 +38,20 @@ body {
       margin-bottom: 10px;
   }
 
-  a:link, a:visited {
+  section a:link, section a:visited {
       color: rgb(250, 51, 51)
 
   }
 
-  a:hover, a:active {
+  section a:hover, section a:active {
     color: rgb(92, 21, 21)
   }
+
+  header,
+footer {
+  margin: 1.25rem auto;
+  padding: 0.5rem;
+}
 
   header,
 footer,

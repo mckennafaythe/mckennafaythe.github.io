@@ -1,13 +1,14 @@
 @media only screen and (min-width: 37.5em) {
+  
     main {
       grid-template-columns: 1fr 1fr;
     }
 
-    main section:nth-child(2) {
+    #repetitionCol {
 		display: block;
     }
     
-	main section:nth-child(3) {
+	  #hicksCol {
         grid-column: span 2;
         margin-top: 40px;
     }
@@ -16,7 +17,7 @@
         padding: 0 2em 2em 2em;
       }
 
-      main section:nth-child(3) p {
+      #hicksCol p {
         text-align: center;
     }
 

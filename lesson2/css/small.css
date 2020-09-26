@@ -29,7 +29,7 @@ body {
   }
 
   /*2nd column background color*/
-  section:nth-child(2) {
+  #repetitionCol {
     background-color: rgb(212, 238, 255);
   }
 

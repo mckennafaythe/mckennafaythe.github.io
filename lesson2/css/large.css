@@ -1,9 +1,10 @@
 @media only screen and (min-width: 60em) {
+  
     main {
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-	main section:nth-child(3) {
+	#hicksCol {
         grid-column: span 1;
         margin: 0 auto;
     }
@@ -18,7 +19,7 @@
           border-radius: 10px;
     }
 
-    main section:nth-child(3) p {
+   #hicksCol p {
       text-align: left;
     }
   }

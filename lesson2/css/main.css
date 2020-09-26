@@ -37,6 +37,15 @@ body {
   div {
       margin-bottom: 10px;
   }
+
+  a:link, a:visited {
+      color: rgb(250, 51, 51)
+
+  }
+
+  a:hover, a:active {
+    color: rgb(92, 21, 21)
+  }
   
   /*medium view *************************************/
   
@@ -67,7 +76,11 @@ body {
 
 	main section:nth-child(3) {
 		grid-column: span 1;
-	}
+    }
+    
+    section:nth-child(1) {
+        background-color: rgb(255, 255, 255);
+      }
 
     body {
         max-width: 1390px;

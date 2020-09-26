@@ -41,12 +41,12 @@ body {
       margin-bottom: 10px;
   }
 
-  section a:link, section a:visited {
+  .blockLink a:link, .blockLink a:visited {
       color: rgb(250, 51, 51)
 
   }
 
-  section a:hover, section a:active {
+  .blockLink a:hover, .blockLink a:active {
     color: rgb(92, 21, 21)
   }
 

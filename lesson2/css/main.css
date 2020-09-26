@@ -30,6 +30,10 @@ body {
   section {
     padding: 0 2em;
   }
+
+  div {
+      margin-bottom: 10px;
+  }
   
   /*medium view *************************************/
   

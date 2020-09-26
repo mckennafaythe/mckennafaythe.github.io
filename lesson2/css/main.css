@@ -80,12 +80,6 @@ footer a {
 		grid-column: span 2;
     }
 
-    header,
-      footer,
-      footer a {
-          border-radius: 10px;
-    }
-
   }
   /*large view *************************************/
   
@@ -100,6 +94,12 @@ footer a {
 
     body {
         max-width: 1390px;
+    }
+    
+    header,
+      footer,
+      footer a {
+          border-radius: 10px;
     }
   }
   

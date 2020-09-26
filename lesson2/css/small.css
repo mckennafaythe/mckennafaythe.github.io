@@ -51,12 +51,12 @@ body {
 
   /*unique colors for links*/
   .blockLink a:link, .blockLink a:visited {
-      color: rgb(250, 51, 51)
+      color: rgb(23, 16, 82)
 
   }
 
   .blockLink a:hover, .blockLink a:active {
-    color: rgb(92, 21, 21)
+    color: rgb(37, 26, 138)
   }
 
   /*padding*/

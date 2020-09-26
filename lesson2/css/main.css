@@ -32,6 +32,7 @@ body {
   
   section {
     padding: 0 2em;
+    border: 1px solid rgb(167, 221, 221);
   }
 
   div {
@@ -61,10 +62,6 @@ body {
 	main section:nth-child(3) {
 		grid-column: span 2;
     }
-    
-    section:nth-child(1) {
-        background-color: rgb(167, 221, 221);
-      }
 
   }
   /*large view *************************************/
@@ -77,10 +74,6 @@ body {
 	main section:nth-child(3) {
 		grid-column: span 1;
     }
-    
-    section:nth-child(1) {
-        background-color: rgb(255, 255, 255);
-      }
 
     body {
         max-width: 1390px;

@@ -9,7 +9,7 @@
     
 	main section:nth-child(3) {
         grid-column: span 2;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
   }

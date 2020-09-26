@@ -16,7 +16,7 @@ body {
   }
 
   section:nth-child(2) {
-    background-color: teal;
+    background-color: rgb(167, 221, 221);
   }
 
   img {

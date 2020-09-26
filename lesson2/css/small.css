@@ -50,12 +50,12 @@ body {
   }
 
   /*unique colors for links*/
-  .blockLink a:link, .blockLink a:visited {
+  .blockLink:link, .blockLink:visited {
       color: rgb(187, 100, 0);
 
   }
 
-  .blockLink a:hover, .blockLink a:active {
+  .blockLink:hover, .blockLink:active {
     color: black;
   }
 

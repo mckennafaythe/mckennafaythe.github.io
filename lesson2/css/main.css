@@ -5,9 +5,13 @@ body {
     font-size: 16px;
   }
 
-  body, section {
+  body, section, footer {
       margin: 0 auto;
   }
+
+  header {
+    margin: 1.25rem auto 0 auto;
+}
   
   h1, section h2 {
     font-family: 'Yeseva One', cursive;
@@ -49,7 +53,6 @@ body {
 
   header,
 footer {
-  margin: 1.25rem auto 0 auto;
   padding: 0.5rem;
 }
 

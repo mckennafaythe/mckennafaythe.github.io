@@ -11,10 +11,17 @@ h2 {
   border-bottom: 1px solid #bbb;
 }
 
+header {
+  margin: 1.25rem auto 0 auto;
+}
+
+main, footer {
+  margin: 0 auto;
+}
+
 header,
 main,
 footer {
-  margin: 1.25rem auto 0 auto;
   padding: 0.5rem;
   max-width: 1000px;
 }

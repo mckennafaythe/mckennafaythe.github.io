@@ -13,6 +13,10 @@ body {
       margin: 0 auto;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   /*margin on top of header*/
   header {
     margin: 1.25rem auto 0 auto;

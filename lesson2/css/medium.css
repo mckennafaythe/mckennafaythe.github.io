@@ -16,7 +16,7 @@
         padding: 0 2em 2em 2em;
       }
 
-      main section p:nth-child(3) {
+      main section:nth-child(3) p {
         text-align: center;
     }
 

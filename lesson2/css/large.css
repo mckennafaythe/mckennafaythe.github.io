@@ -1,0 +1,21 @@
+@media only screen and (min-width: 60em) {
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+	main section:nth-child(3) {
+        grid-column: span 1;
+        margin: 0 auto;
+    }
+
+    body {
+        max-width: 1390px;
+    }
+
+    header,
+      footer,
+      footer a {
+          border-radius: 10px;
+    }
+  }
+  

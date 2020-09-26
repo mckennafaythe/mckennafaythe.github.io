@@ -1,5 +1,4 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; ****************************/
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -67,42 +66,3 @@ footer a {
   #moddate {
     font-size: 12px;
   }
-  
-  /*medium view *************************************/
-  
-  @media only screen and (min-width: 37.5em) {
-    main {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    main section:nth-child(2) {
-		display: block;
-	}
-
-	main section:nth-child(3) {
-		grid-column: span 2;
-    }
-
-  }
-  /*large view *************************************/
-  
-  @media only screen and (min-width: 60em) {
-    main {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-
-	main section:nth-child(3) {
-		grid-column: span 1;
-    }
-
-    body {
-        max-width: 1390px;
-    }
-
-    header,
-      footer,
-      footer a {
-          border-radius: 10px;
-    }
-  }
-  

@@ -4,43 +4,52 @@ body {
     font-size: 16px;
   }
 
+  h1, section h2 {
+    font-family: 'Yeseva One', cursive;
+  }
+
+  /*set page center*/
   body, section, footer {
       margin: 0 auto;
   }
 
+  /*margin on top of header*/
   header {
     margin: 1.25rem auto 0 auto;
-}
-  
-  h1, section h2 {
-    font-family: 'Yeseva One', cursive;
   }
   
+
   main {
     display: grid;
     grid-template-columns: 1fr;
   }
 
+  /*2nd column background color*/
   section:nth-child(2) {
     background-color: rgb(212, 238, 255);
   }
 
+  /*controls image size*/
   img {
     max-width: 100%;
   }
 
+  /*Keeps column heights consistent with longer headers*/
   section h2 {
       height: 2em;
   }
   
+  /*side padding for columns*/
   section {
     padding: 0 2em;
   }
 
-  div {
+  /*breathing room on bottom for link*/
+  .blockLink {
       margin-bottom: 10px;
   }
 
+  /*unique colors for links*/
   .blockLink a:link, .blockLink a:visited {
       color: rgb(250, 51, 51)
 
@@ -50,11 +59,12 @@ body {
     color: rgb(92, 21, 21)
   }
 
-  header,
-footer {
-  padding: 0.5rem;
-}
+  /*padding*/
+  header, footer {
+    padding: 0.5rem;
+  }
 
+  /*margin on top of header*/
   header,
 footer,
 footer a {

@@ -53,12 +53,15 @@ main article {
 }
 main div {
 	display: none;
-	margin: 0.5rem;
+    margin: 0.5rem;
+    max-width: 100px;
 }
 
 footer {
 	flex: 0 1 100%;
-	height: 2rem;
+    height: 2rem;
+    background-color: black;
+    color: #ffffff;
 }
 
   #moddate {

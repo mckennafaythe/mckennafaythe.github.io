@@ -1,24 +1,31 @@
 @media only screen and (min-width: 37.5em) {
-  
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #repetitionCol {
-  display: block;
-  }
-  
-  #hicksCol {
-      grid-column: span 2;
-      margin-top: 40px;
-  }
-
-  section {
-      padding: 0 2em 2em 2em;
+	
+    nav ul { 
+        display: flex; 
     }
 
-    #hicksCol p {
-      max-width: 400px;
-  }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
 
-}
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            }
+            
+    nav a {
+                font-size: 1rem;
+            }
+            main {
+                grid-template-columns: 1fr 1fr;
+            }
+            article:nth-child(3) {
+                grid-column: span 2;
+            }
+            main div {
+                display: block;
+            }
+            main div img {
+                width: 100%;
+                height: auto;
+                border: 1px solid #bbb;
+            }
+        }        

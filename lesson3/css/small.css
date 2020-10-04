@@ -62,10 +62,11 @@ footer {
     height: 2rem;
     background-color: black;
     color: #ffffff;
-    padding: 10px;
 }
 footer p a {
     color: #ffffff;
+}
+footer p {
 }
 
   #moddate {

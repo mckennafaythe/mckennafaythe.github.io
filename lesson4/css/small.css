@@ -90,11 +90,11 @@ main div {
 
 footer {
     background-color: #dcdef2;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer p {
-    margin: 2%;
+    margin: 10px;
     text-align: center;
 }
 

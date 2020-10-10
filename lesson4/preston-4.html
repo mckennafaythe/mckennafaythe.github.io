@@ -18,14 +18,15 @@
 <body>
 
     <header>
-        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient on a raindrop">
+        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
         <h1>Clear Forecasts</h1>
-        <div>Your Weather, Now</div>
+        <p>Your Weather, Now</p>
     </header>
     <nav>
-        <ul>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="sally" class="hide">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li class="activeLink"><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>

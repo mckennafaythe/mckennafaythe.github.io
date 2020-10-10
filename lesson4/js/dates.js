@@ -17,4 +17,4 @@ let currentMonth = months[today.getMonth()];
 
 let currentYear = today.getFullYear();
 
-document.getElementById("currentDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear; 
+document.getElementById("currentDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear;

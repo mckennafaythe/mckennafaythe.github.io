@@ -2,7 +2,6 @@ let d = new Date();
 
 document.getElementById("currentYear").textContent = d.getFullYear();
 
-document.getElementById("lastModifiedDate").textContent = document.lastModified;
 
 
 let today = new Date();
@@ -18,4 +17,4 @@ let currentMonth = months[today.getMonth()];
 
 let currentYear = today.getFullYear();
 
-document.getElementById("todaysDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear; 
+document.getElementById("currentDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear; 

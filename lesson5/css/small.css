@@ -11,13 +11,13 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: playfair display, serif;
     color: #6c87d9;
 }
 
 h2 {
-    margin: 2%;
+    margin: 1rem;
     padding: 1rem 0;
 }
 
@@ -32,7 +32,7 @@ nav {
 }
 
 nav button {
-    margin: 2%;
+    margin: 1rem;
     background-color: transparent;
     border: none;
     font-size: 2rem;
@@ -42,7 +42,7 @@ nav button {
 
 nav ul li a {
     display: block;
-    padding: 0.8rem 2%;
+    padding: 1rem;
     text-decoration: none;
     color: #000;
 }
@@ -70,23 +70,17 @@ nav ul.hide {
 
 header img {
     float: left;
-    margin: 5px 10px;
+    margin: 0.5rem 1rem;
     max-height: 3.5rem;
 }
 
 header h1 {
-    margin: 10px 0 0 0;
+    margin: 1rem 0 0 0;
    
 }
 
 header p {
-    margin: 0 0 20px 0;
-}
-
-main div {
-    background-color: rgb(180, 180, 180);
-    padding: 20px 5px;
-    margin: 2%;
+    margin: 0 0 2rem 0;
 }
 
 footer {
@@ -95,18 +89,59 @@ footer {
 }
 
 footer p {
-    margin: 10px;
+    margin: 1rem;
     text-align: center;
-}
-
-#moddate {
-    font-size: 12px;
 }
 
 footer p a {
     color: #000;
 }
 
+.containWS img {
+    width: 100%;
+}
 
+.containWS section {
+    padding: 1rem;
+    background-color: rgba(220, 222, 242, 0.8);
+}
 
+.fivedayforecast {
+    display: none;
+}
+
+article img {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+article {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.contact {
+    background-color: #dcdef2;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.6);
+}
+
+.contact .icons img {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+.map {
+    display: none;
+}
+
+#displayMessage {
+    background-color: #23a166;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
 

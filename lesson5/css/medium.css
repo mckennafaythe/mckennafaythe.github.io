@@ -29,4 +29,65 @@
     header h1 {
         font-size: 3.5rem;
     }
+
+    .containWS {
+        position: relative;
+    }
+    
+    .containWS section {
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+        border-radius: 5px;
+    }
+
+    .containWS img {
+        height: 20rem;
+        object-fit: cover;
+        object-position: 80% 20%;
+        margin-bottom: 2rem;
+    }
+    
+    .fivedayforecast {
+        display: table;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .fivedayforecast tr th {
+        border: 1px solid #111;
+        background-color: #dcdef2;
+        padding: 1rem;
+        width: 150px;
+    }
+
+    .fivedayforecast tr td {
+        padding: 1rem;
+        border: 1px solid #111;
+        text-align: center;
+    }
+
+    article img {
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        float: right;
+        margin: 20px;
+    }
+
+    article {
+        overflow: auto;
+    }
+
+    .map {
+        width: 48%;
+        display: block;
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .contact {
+        overflow: auto;
+    }
+
 }

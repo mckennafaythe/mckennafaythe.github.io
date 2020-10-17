@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <div id="displayMessage">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
 
     <header>
         <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
@@ -27,18 +30,59 @@
         <ul id="mainNav" class="hide">
             <li><a href="#">Home</a></li>
             <li class="activeLink"><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Soda&nbsp;Springs</a></li>
+            <li><a href="#">Fish&nbsp;Haven</a></li>
+            <li><a href="#">Storm&nbsp;Center</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div>Hero and weather summary</div>
-        <div>5 day forecast</div>
-        <div>Article</div>
-        <div>Contact</div>
+        <div class="containWS">
+            <img src="images/idahosnow.jpg">
+            <section>
+                <h3>Weather Summary</h3>
+                <p>Info</p>
+                <p>Info</p>
+                <p>Info</p>
+                <p>Info</p>
+            </section>
+        </div>
+        <table class="fivedayforecast">
+            <tr>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>65&deg;F</td>
+                <td>64&deg;F</td>
+                <td>70&deg;F</td>
+                <td>75&deg;F</td>
+                <td>73&deg;F</td>
+            </tr>
+        </table>
+        <article>
+            <h3>Article Title</h3>
+            <author>By: So Andso</author>
+            <img src="images/bikersinrain.jpg">
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter</p>
+        </article>
+        <section class="contact">
+            <img class="map" src="images/map.png">
+            <h3>
+                Clear Forecasts
+            </h3>
+            <p>1234 Five St.<br>Preston, ID 12345</p>
+            <p>Phone: 1-800-555-5555<br>Email: contact@clearforecats.com</p>
+            <div class="icons">
+                <img src="images/fbicon.png">
+                <img src="images/twiticon.png">
+                <img src="images/yticon.png">
+            </div>
+        </section>
     </main>
     <footer>
       
@@ -48,6 +92,7 @@
   
     <script src="js/dates.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/pancake.js"></script>
 
   </body>
 

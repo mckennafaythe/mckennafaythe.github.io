@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Clear Forecasts | Preston</title>
+    <meta name="description" content="Created by McKenna Ashcraft for BYU-Idaho's WDD 230 Week 6 Assignment: Responsive Images and Font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+</head>
+
+<body>
+    <div id="displayMessage">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
+        <h1>Clear Forecasts</h1>
+        <p>Your Weather, Now</p>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="activeLink"><a href="#">Preston</a></li>
+            <li><a href="#">Soda&nbsp;Springs</a></li>
+            <li><a href="#">Fish&nbsp;Haven</a></li>
+            <li><a href="#">Storm&nbsp;Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="containWS">
+            <picture class="heroImg">
+                <source media="(max-width: 400px)" srcset="images/wdd230_image_franklinSmall.jpg">
+                <source media="(max-width: 800px)" srcset="images/wdd230_image_franklinMedium.jpg">
+                <img src="images/wdd230_image_franklinLarge.jpg" alt="Landscape of snow-covered pine trees">
+            </picture>
+            <section>
+                <h3>Weather Summary</h3>
+                <p>Currently: Rainy</p>
+                <p>High: <span id="highTemp">54</span> &deg;F</p>
+                <p>Windchill: <span id="windchill"></span></p>
+                <p>Humidity: 95%</p>
+                <p>Wind Speed: <span id="windSpeed">12</span> mph</p>
+            </section>
+        </div>
+        <table class="fivedayforecast">
+            <tr>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>65&deg;F</td>
+                <td>64&deg;F</td>
+                <td>70&deg;F</td>
+                <td>75&deg;F</td>
+                <td>73&deg;F</td>
+            </tr>
+        </table>
+        <article>
+            <h3>Article Title</h3>
+            <img src="images/bikersinrain.jpg" alt="Cyclists race with umbrellas in the rain">
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter</p>
+        </article>
+        <section class="contact">
+            <img class="map" src="images/map.png" alt="map of St. Louis area">
+            <h3>
+                Clear Forecasts
+            </h3>
+            <p>1234 Five St.<br>Preston, ID 12345</p>
+            <p>Phone: 1-800-555-5555<br>Email: contact@clearforecats.com</p>
+            <div class="icons">
+                <a href="#"><img src="images/fbicon.png" alt="facebook icon"></a>
+                <a href="#"><img src="images/twiticon.png" alt="twitter icon"></a>
+                <a href="#"><img src="images/yticon.png" alt="youtube icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+      
+      <p>&copy; <span id="currentYear"></span> | McKenna Ashcraft | Missouri | <a href="www.byui.edu/online/">BYU-I Online Learning</a></p>
+      <p><span id="currentDate"></span></p>
+    </footer>
+  
+    <script src="js/dates.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/pancake.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/windchill.js"></script>
+
+  </body>
+
+</html>

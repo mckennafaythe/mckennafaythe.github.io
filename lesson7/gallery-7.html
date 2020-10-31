@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Clear Forecasts | Gallery</title>
+    <meta name="description" content="Created by McKenna Ashcraft for BYU-Idaho's WDD 230 Week 7 Assignment: The Gallery Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+</head>
+
+<body>
+    <div id="displayMessage">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
+        <h1>Clear Forecasts</h1>
+        <p>Your Weather, Now</p>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda&nbsp;Springs</a></li>
+            <li><a href="#">Fish&nbsp;Haven</a></li>
+            <li><a href="#">Storm&nbsp;Center</a></li>
+            <li class="activeLink"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Image Gallery</h2>
+        
+        <div class="imageContain">
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/fog.jpg" alt="Landscape of fog-covered pine trees">
+            <figcaption class="caption">Foggy morning in the trees</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/dust.jpg" alt="Birds flying in dust storm">
+            <figcaption class="caption">Dusty skies are for the birds</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/clear.jpg" alt="Clear skies with bright sun">
+            <figcaption class="caption">Clear and blue</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/humid.jpg" alt="Dew-covered leaf">
+            <figcaption class="caption">Dripping humidity</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/ice.jpg" alt="Chunk of ice in with a large body of water in the background">
+            <figcaption class="caption">Frozen solid</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/snow.jpg" alt="Snowy city street where a bus is waiting ">
+            <figcaption class="caption">Snowy winter commute</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/lightning.jpg" alt="A surge of lighting stretches across a dark sky">
+            <figcaption class="caption">Reaching lightning storm</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/snowflake.jpg" alt="Cluster of snowflakes">
+            <figcaption class="caption">Micro winter</figcaption>
+        </figure>
+        <figure class="weatherImg">
+            <img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="Tornado behind a small island">
+            <figcaption class="caption">Lonely tornado</figcaption>
+        </figure>
+    </div>
+
+        <section class="contact">
+            <img class="map" src="images/map.png" alt="map of St. Louis area">
+            <h3>
+                Clear Forecasts
+            </h3>
+            <p>1234 Five St.<br>Preston, ID 12345</p>
+            <p>Phone: 1-800-555-5555<br>Email: contact@clearforecasts.com</p>
+            <div class="icons">
+                <a href="#"><img src="images/fbicon.png" alt="facebook icon"></a>
+                <a href="#"><img src="images/twiticon.png" alt="twitter icon"></a>
+                <a href="#"><img src="images/yticon.png" alt="youtube icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+      
+      <p>&copy; <span id="currentYear"></span> | McKenna Ashcraft | Missouri | <a href="www.byui.edu/online/">BYU-I Online Learning</a></p>
+      <p><span id="currentDate"></span></p>
+    </footer>
+  
+    <script src="js/lazyload.js"></script>
+    <script src="js/dates.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/pancake.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/windchill.js" defer></script>
+
+  </body>
+
+</html>

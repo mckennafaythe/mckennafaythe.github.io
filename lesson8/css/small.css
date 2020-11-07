@@ -191,6 +191,7 @@ form label.above, form div {
 }
 
 form label.above input, form label.above select {
+    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #dcdef2;

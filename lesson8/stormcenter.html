@@ -42,7 +42,7 @@
         <form>
 
             <label for="fname">Full Name: *
-                <input type="text" id="fname" name="fname" required pattern="[a-zA-Z]+" minlength="5">
+                <input type="text" id="fname" name="fname" required pattern="[a-zA-Z ]{5,}">
             </label>
 
             <label for="email">Email:
@@ -79,7 +79,7 @@
 
             <label for="region">Storm Region:
                 <select id="region" name="region">
-                    <option disabled>Select Region...</option>
+                    <option value="" disabled>Select Region...</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda Springs">Soda Springs</option>
                     <option value="Fish Haven">Fish Haven</option>

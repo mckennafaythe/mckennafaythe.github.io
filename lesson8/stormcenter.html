@@ -41,19 +41,19 @@
         
         <form>
 
-            <label for="fname">Full Name:
-                <input type="text" id="fname" name="fname" required pattern="[A-Za-z] {5}">
+            <label for="fname">Full Name: *
+                <input type="text" id="fname" name="fname" required pattern="[a-zA-Z]+" minlength="5">
             </label>
 
             <label for="email">Email:
                 <input type="email" id="email" name="email" placeholder="janedoe@here.com">
             </label>
 
-            <label for="phone">Phone Number:
+            <label for="phone">Phone Number: *
                 <input type="tel" id="phone" name="phone" required>
             </label>
 
-            <label for="zip">Zip Code:
+            <label for="zip">Zip Code: *
                 <input type="number" id="zip" name="zip" required>
             </label>
 

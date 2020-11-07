@@ -168,3 +168,62 @@ main .weatherImg {
     padding: 10px;
 }
 
+/* ----------------FORM----------------- */
+
+form fieldset {
+    margin: 2rem auto;
+    border: solid 3px #6c87d9;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 94%;
+}
+
+fieldset legend {
+    color: #411f8c;
+    padding: 0.5rem;
+    margin: 0px 1rem;
+}
+
+form label.above, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+form label.above input, form label.above select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #dcdef2;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(220, 222, 242, 0.3);
+}
+
+form label.sbs {
+    display: block;
+    padding: 0.5rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #411f8c;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.above input:required {
+    border-left: solid 3px red;
+}
+
+form label.above input:required:valid {
+    border-left: solid 3px #6c87d9;
+}

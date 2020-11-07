@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Clear Forecasts | Storm Report Form Complete</title>
+    <meta name="description" content="Created by McKenna Ashcraft for BYU-Idaho's WDD 230 Week 8 Assignment: Storm Center Page">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+</head>
+
+<body>
+    <div id="displayMessage">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
+        <h1>Clear Forecasts</h1>
+        <p>Your Weather, Now</p>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda&nbsp;Springs</a></li>
+            <li><a href="#">Fish&nbsp;Haven</a></li>
+            <li class="activeLink"><a href="#">Storm&nbsp;Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        
+        <p>Thank you for reporting this storm. This helps us keep the most up-to-date information available for users like you!</p>
+
+        <section class="contact">
+            <img class="map" src="images/map.png" alt="map of St. Louis area">
+            <h3>
+                Clear Forecasts
+            </h3>
+            <p>1234 Five St.<br>Preston, ID 12345</p>
+            <p>Phone: 1-800-555-5555<br>Email: contact@clearforecasts.com</p>
+            <div class="icons">
+                <a href="#"><img src="images/fbicon.png" alt="facebook icon"></a>
+                <a href="#"><img src="images/twiticon.png" alt="twitter icon"></a>
+                <a href="#"><img src="images/yticon.png" alt="youtube icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+      
+      <p>&copy; <span id="currentYear"></span> | McKenna Ashcraft | Missouri | <a href="www.byui.edu/online/">BYU-I Online Learning</a></p>
+      <p><span id="currentDate"></span></p>
+    </footer>
+  
+    <script src="js/dates.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/pancake.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/severity.js"></script>
+
+  </body>
+
+</html>

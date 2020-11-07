@@ -39,31 +39,41 @@
     <main>
         <h2>Storm Center</h2>
         
-        <form>
+        <form method="get" action="thanks.html">
 
-            <label for="fname">Full Name: *
-                <input type="text" id="fname" name="fname" required pattern="[a-zA-Z ]{5,}">
+        <fieldset>
+
+            <legend>Reporter Information</legend>
+
+            <label class="above">Full Name*
+                <input type="text" name="name" required pattern="[a-zA-Z ]{5,}">
             </label>
 
-            <label for="email">Email:
-                <input type="email" id="email" name="email" placeholder="janedoe@here.com">
+            <label class="above">Email
+                <input type="email" name="email" placeholder="janedoe@gmail.com">
             </label>
 
-            <label for="phone">Phone Number: *
-                <input type="tel" id="phone" name="phone" required>
+            <label class="above">Phone Number*
+                <input type="tel" name="phone" required>
             </label>
 
-            <label for="zip">Zip Code: *
-                <input type="number" id="zip" name="zip" required>
+            <label class="above">Zip Code*
+                <input type="number" name="zipCode" required>
             </label>
 
-            <label for="sDate">Storm Date:
-                <input type="date" id="sDate" name="sDate">
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Storm Information</legend>
+
+            <label class="above">Storm Date
+                <input type="date" name="stormDate">
             </label>
 
-            <label for="sType">Storm Type:
-                <input list="sTypes" id="sType" name="sType">
-                <datalist id="sTypes">
+            <label class="above">Storm Type
+                <input list="stormTypes" name="stormType">
+                <datalist id="stormTypes">
                     <option value="Flash Flood"></option>
                     <option value="Hail"></option>
                     <option value="Hurricane"></option>
@@ -72,13 +82,13 @@
                 </datalist>
             </label>
 
-            <label for="severity">Storm Severity:
-                <input type="range" id="severity" name="severity" value="10" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
-                <span id="severityvalue">10</span>
+            <label class="above">Storm Severity
+                <input type="range" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                <span id="severityvalue">5</span>
             </label>
 
-            <label for="region">Storm Region:
-                <select id="region" name="region">
+            <label class="above">Storm Region
+                <select name="region">
                     <option value="" disabled>Select Region...</option>
                     <option value="Preston">Preston</option>
                     <option value="Soda Springs">Soda Springs</option>
@@ -86,22 +96,30 @@
                 </select>
             </label>
             
-            <p>Are you in danger?<p><br>
-            <label for="yesDanger">
-                <input type="radio" id="yesDanger" name="danger" value="yes">Yes
+            <div>Are you in danger?<div>
+            <label class="sbs">
+                <input type="radio" name="danger" value="yes">Yes
             </label>
-            <label for="maybeDanger">
-                <input type="radio" id="maybeDanger" name="danger" value="maybe">Maybe
+            <label class="sbs">
+                <input type="radio" name="danger" value="maybe">Maybe
             </label>
-            <label for="noDanger">
-                <input type="radio" id="noDanger" name="danger" value="no">No
-            </label>
-
-            <label for="comments">Additional Information or Comments:
-                <input type="textarea" id="comments" name="comments">
+            <label class="sbs">
+                <input type="radio" name="danger" value="no">No
             </label>
 
-            <input type="submit" value="Report Storm">
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Additional Information or Comments</legend>
+
+            <label class="above">If there is anything else you'd like to include, please type it here
+                <input type="textarea" name="comments">
+            </label>
+
+        </fieldset>
+
+            <input type="submit" value="Report Storm" class="submitBtn">
 
         </form>
 

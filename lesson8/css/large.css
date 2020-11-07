@@ -1,0 +1,38 @@
+@media only screen and (min-width: 64rem) {
+
+    main {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    nav ul li a {
+        padding: .6rem 2%;
+    }
+
+    header {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    header img {
+        max-height: 10rem;
+    }
+
+    header h1 {
+        font-size: 4.5rem;
+    }
+
+    .imageContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main .weatherImg:hover {
+        box-shadow: 0 0 20px rgba(114, 114, 114, 0.6);
+    }
+}

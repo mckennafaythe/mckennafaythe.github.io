@@ -1,0 +1,96 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        text-align: center;
+        border: none;
+    }
+
+    header img {
+        max-height: 5rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    .containWS {
+        position: relative;
+    }
+    
+    .containWS section {
+        padding: 0 1rem;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        border-radius: 5px;
+    }
+
+    .containWS img {
+        margin-bottom: 2rem;
+    }
+    
+    .fivedayforecast {
+        display: table;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .fivedayforecast tr th {
+        border: 1px solid #111;
+        background-color: #dcdef2;
+        padding: 1rem;
+        width: 150px;
+    }
+
+    .fivedayforecast tr td {
+        padding: 1rem;
+        border: 1px solid #111;
+        text-align: center;
+    }
+
+    article img {
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        float: right;
+        margin: 0 20px 10px 20px;
+    }
+
+    article {
+        overflow: auto;
+    }
+
+    .map {
+        width: 48%;
+        display: block;
+        float: left;
+        margin-right: 2rem;
+    }
+
+    .contact {
+        overflow: auto;
+    }
+
+    .imageContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

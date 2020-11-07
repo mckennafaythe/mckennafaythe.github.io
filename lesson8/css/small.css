@@ -1,0 +1,170 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #6c87d9;
+}
+
+h2 {
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #dcdef2;
+}
+
+nav button {
+    margin: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+nav .activeLink a {
+    background-color: #411f8c;
+    color: #fff;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+nav .activeLink a:hover {
+    color: #000;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+header img {
+    float: left;
+    margin: 0.5rem 1rem;
+    max-height: 3.5rem;
+}
+
+header h1 {
+    margin: 1rem 0 0 0;
+   
+}
+
+header p {
+    margin: 0 0 2rem 0;
+}
+
+footer {
+    background-color: #dcdef2;
+    padding: 10px;
+}
+
+footer p {
+    margin: 1rem;
+    text-align: center;
+}
+
+footer p a {
+    color: #000;
+}
+
+.containWS .heroImg img {
+    width: 100%;
+}
+
+.containWS section {
+    padding: 1rem;
+    background-color: rgba(220, 222, 242, 0.8);
+}
+
+.containWS section h3 {
+    font-size: 1.2rem;
+    color: #411f8c;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+article img {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+article {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.contact {
+    background-color: #dcdef2;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.6);
+}
+
+.contact h3 {
+    color: #411f8c;
+}
+
+.contact .icons img {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+.map {
+    display: none;
+}
+
+#displayMessage {
+    background-color: #411f8c;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
+
+main .weatherImg img {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+main .weatherImg {
+    border: 1px solid rgba(114, 114, 114, 0.6);
+}
+
+.weatherImg figcaption {
+    text-align: center;
+    padding: 10px;
+}
+

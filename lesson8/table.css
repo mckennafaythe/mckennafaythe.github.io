@@ -1,0 +1,43 @@
+table {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+}
+
+caption {
+    background-color: #7fb9c2;
+}
+
+caption, th, td {
+    border: solid 1px grey;
+    padding: 10px 20px;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+th {
+    font-weight: bold;
+    background-color: #628ca6;
+    color: white;
+}
+
+.highlightCell {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+tfoot tr td {
+    font-size: 0.8rem;
+    background-color: #7fb9c2;
+}

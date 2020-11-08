@@ -198,6 +198,7 @@ form label.above input, form label.above select, textarea {
     color: #555;
     width: 100%;
     background-color: rgba(220, 222, 242, 0.3);
+    outline: none;
 }
 
 form label.sbs {
@@ -215,6 +216,16 @@ form input.submitBtn {
     padding: 0.5rem;
     margin: 1rem auto 2rem auto;
     width: 96%;
+}
+
+form input.submitBtn:hover {
+    background-color: #dcdef2;
+    color: #333;
+}
+
+form input.submitBtn:active {
+    outline: none;
+    background-color:  rgba(220, 222, 242, 0.5);
 }
 
 form label.above input:required {

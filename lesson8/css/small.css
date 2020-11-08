@@ -121,8 +121,7 @@ article img {
 }
 
 article {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     padding: 1rem;
 }
 
@@ -172,10 +171,10 @@ main .weatherImg {
 
 form fieldset {
     margin: 2rem auto;
-    border: solid 3px #6c87d9;
+    border: solid 1px #6c87d9;
     border-radius: 5px;
     padding: 1rem;
-    width: 94%;
+    width: 96%;
 }
 
 fieldset legend {
@@ -191,7 +190,6 @@ form label.above, form div {
 }
 
 form label.above input, form label.above select {
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #dcdef2;
@@ -199,7 +197,6 @@ form label.above input, form label.above select {
     padding: 0.5rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
     background-color: rgba(220, 222, 242, 0.3);
 }
 
@@ -216,9 +213,8 @@ form input.submitBtn {
     color: white;
     border-radius: 5px;
     padding: 0.5rem;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem auto;
     width: 96%;
-    max-width: 20rem;
 }
 
 form label.above input:required {
@@ -228,3 +224,20 @@ form label.above input:required {
 form label.above input:required:valid {
     border-left: solid 3px #6c87d9;
 }
+
+form #severityScale {
+    width: 85%;
+}
+
+form #severityvalue {
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+
+/* --------------thank you----------------- */
+
+.standAlone {
+    margin: 1rem 1rem 3rem 1rem;
+}
+

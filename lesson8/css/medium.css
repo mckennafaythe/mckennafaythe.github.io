@@ -93,4 +93,24 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    /* ---------------FORM------------------ */
+
+    form fieldset {
+        margin: 2rem 2%;
+        max-width: 40rem;
+    }
+
+    form input.submitBtn {
+        margin: 0 0 2rem 2%;
+        max-width: 20rem;
+    }
+
+    form label.above input, form label.above select {
+        max-width: 20rem;
+    }
+
+    form #severityScale {
+        width: 18rem;
+    }
+
 }

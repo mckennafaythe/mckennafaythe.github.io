@@ -35,4 +35,11 @@
     main .weatherImg:hover {
         box-shadow: 0 0 20px rgba(114, 114, 114, 0.6);
     }
+
+    /* -----------Form--------------- */
+
+    form label.sbs {
+        padding: 0.2rem 0;
+    }
+    
 }

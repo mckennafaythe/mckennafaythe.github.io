@@ -43,7 +43,7 @@
 
         <fieldset>
 
-            <legend>Reporter Information</legend>
+            <legend>Contact Information</legend>
 
             <label class="above">Full Name*
                 <input type="text" name="name" required pattern="[a-zA-Z ]{5,}">
@@ -82,10 +82,10 @@
                 </datalist>
             </label>
 
-            <label class="above">Storm Severity
-                <input type="range" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+            <label class="above">Storm Severity</label>
+                <input type="range" id="severityScale" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
                 <span id="severityvalue">5</span>
-            </label>
+            
 
             <label class="above">Storm Region
                 <select name="region">
@@ -96,15 +96,15 @@
                 </select>
             </label>
             
-            <div>Are you in danger?<div>
+            <div>Are you in danger?</div>
             <label class="sbs">
-                <input type="radio" name="danger" value="yes">Yes
+                <input type="radio" name="danger" value="yes"> Yes
             </label>
             <label class="sbs">
-                <input type="radio" name="danger" value="maybe">Maybe
+                <input type="radio" name="danger" value="maybe"> Maybe
             </label>
             <label class="sbs">
-                <input type="radio" name="danger" value="no">No
+                <input type="radio" name="danger" value="no"> No
             </label>
 
         </fieldset>
@@ -113,7 +113,7 @@
 
             <legend>Additional Information or Comments</legend>
 
-            <label class="above">If there is anything else you'd like to include, please type it here
+            <label class="above">If there is anything else you'd like to include,<br>please type it here
                 <input type="textarea" name="comments">
             </label>
 

@@ -178,7 +178,7 @@ form fieldset {
 }
 
 fieldset legend {
-    color: #411f8c;
+    color: #555;
     padding: 0.5rem;
     margin: 0px 1rem;
 }
@@ -232,6 +232,12 @@ form #severityScale {
 form #severityvalue {
     font-size: 0.9rem;
     padding: 1rem;
+}
+
+.pageSubhead {
+    font-family: 'Open Sans', sans-serif;
+    color: #411f8c;
+    padding-left: 1rem;
 }
 
 

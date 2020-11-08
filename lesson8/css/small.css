@@ -9,10 +9,14 @@ body {
     font-size: 16px;
     display: block;
     margin: 0 auto;
+    color: #333;
 }
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+}
+
+h1 {
     color: #6c87d9;
 }
 
@@ -108,7 +112,7 @@ footer p a {
 
 .containWS section h3 {
     font-size: 1.2rem;
-    color: #411f8c;
+    color: #333;
 }
 
 .fivedayforecast {
@@ -129,10 +133,6 @@ article {
     background-color: #dcdef2;
     padding: 1rem;
     border-bottom: 1px solid rgba(114, 114, 114, 0.6);
-}
-
-.contact h3 {
-    color: #411f8c;
 }
 
 .contact .icons img {
@@ -236,7 +236,7 @@ form #severityvalue {
 
 .pageSubhead {
     font-family: 'Open Sans', sans-serif;
-    color: #411f8c;
+    color: #333;
     padding-left: 1rem;
 }
 

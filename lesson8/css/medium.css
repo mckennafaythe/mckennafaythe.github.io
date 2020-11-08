@@ -105,7 +105,7 @@
         max-width: 20rem;
     }
 
-    form label.above input, form label.above select {
+    form label.above input, form label.above select, textarea {
         max-width: 20rem;
     }
 

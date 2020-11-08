@@ -189,7 +189,7 @@ form label.above, form div {
     font-size: 0.9rem;
 }
 
-form label.above input, form label.above select {
+form label.above input, form label.above select, textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px #dcdef2;
@@ -238,6 +238,14 @@ form #severityvalue {
     font-family: 'Open Sans', sans-serif;
     color: #333;
     padding-left: 1rem;
+}
+
+.required {
+    color: red;
+}
+
+.key {
+    font-size: 0.8rem;
 }
 
 

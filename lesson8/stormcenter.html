@@ -47,7 +47,7 @@
 
             <legend>Contact Information</legend>
 
-            <label class="above">Full Name*
+            <label class="above">Full Name <span class="required">*</span>
                 <input type="text" name="name" required pattern="[a-zA-Z ]{5,}">
             </label>
 
@@ -55,13 +55,15 @@
                 <input type="email" name="email" placeholder="janedoe@gmail.com">
             </label>
 
-            <label class="above">Phone Number*
+            <label class="above">Phone Number <span class="required">*</span>
                 <input type="tel" name="phone" required>
             </label>
 
-            <label class="above">Zip Code*
+            <label class="above">Zip Code <span class="required">*</span>
                 <input type="number" name="zipCode" required>
             </label>
+
+            <p class="key"><span class="required">*</span> required</p>
 
         </fieldset>
 
@@ -115,9 +117,8 @@
 
             <legend>Additional Information or Comments</legend>
 
-            <label class="above">If there is anything else you'd like to include,<br>please type it here
-                <input type="textarea" name="comments">
-            </label>
+            <textarea placeholder="If there is anything else you'd like to include, please type it here" name="comments" rows="5"></textarea>
+            
 
         </fieldset>
 

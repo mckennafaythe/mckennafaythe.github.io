@@ -251,12 +251,9 @@ form #severityvalue {
     padding-left: 1rem;
 }
 
-.required {
-    color: red;
-}
-
 .key {
     font-size: 0.8rem;
+    margin-top: 0;
 }
 
 

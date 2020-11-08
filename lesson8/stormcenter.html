@@ -86,7 +86,7 @@
                 </datalist>
             </label>
 
-            <label class="above">Storm Severity</label>
+            <label class="above" for="severityScale">Storm Severity</label>
                 <input type="range" id="severityScale" name="stormSeverity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
                 <span id="severityvalue">5</span>
             
@@ -117,8 +117,9 @@
 
             <legend>Additional Information or Comments</legend>
 
-            <textarea placeholder="If there is anything else you'd like to include, please type it here" name="comments" rows="5"></textarea>
-            
+            <label>
+                <textarea placeholder="If there is anything else you'd like to include, please type it here" name="comments" rows="5"></textarea>
+            </label>
 
         </fieldset>
 

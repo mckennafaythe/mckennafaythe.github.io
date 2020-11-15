@@ -66,11 +66,7 @@
     }
 
     article img {
-        width: 20rem;
-        height: 20rem;
-        object-fit: cover;
-        float: right;
-        margin: 0 20px 10px 20px;
+        width: 60%;
     }
 
     article {
@@ -111,6 +107,42 @@
 
     form #severityScale {
         width: 18rem;
+    }
+
+    /*--------------home page--------------*/
+
+    div.cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem auto;
+        border-radius: 5px;
+    }
+
+    div.cards section:nth-child(even) h2,
+    div.cards section:nth-child(even) p {
+        grid-column: 2;
+    }
+
+    div.cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row-start: 1;
+        grid-row-end: 6;
+
+    }
+
+    div.cards section:nth-child(odd) h2,
+    div.cards section:nth-child(odd) p {
+        grid-column: 1;
+    }
+
+    div.cards section:nth-child(odd) img {
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+
+    div.articles {
+        border-radius: 5px;
     }
 
 }

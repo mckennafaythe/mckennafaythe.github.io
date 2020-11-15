@@ -41,5 +41,22 @@
     form label.sbs {
         padding: 0.2rem 0;
     }
-    
-}
+
+    /*--------------home page--------------*/
+
+    div.cards section {
+        display: block;
+        margin: 1rem;
+    }
+
+    div.cards section img {
+        width: 100%;
+    }
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem auto;
+        border-radius: 5px;
+    }
+

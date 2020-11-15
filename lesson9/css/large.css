@@ -60,3 +60,8 @@
         border-radius: 5px;
     }
 
+    img.map {
+        max-width: 30%;
+    }
+
+}

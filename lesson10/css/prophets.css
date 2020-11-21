@@ -1,0 +1,53 @@
+/* ------------Small--------------- */
+header h1 {
+    text-align: center;
+}
+
+body {
+    font-family: serif;
+    font-size: 16px;
+    color: #411f8c;
+    text-align: center;
+}
+
+div.cards {
+    background-color: #999;
+    border: solid 1px #777;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0 0 20px #555;
+}
+
+section {
+    background-color: rgba(65, 31, 140, 0.2);
+    border: solid 1px #411f8c;
+    margin: 1rem;
+}
+
+section img {
+    padding: 0 2rem 2rem 2rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+/* -----------Medium--------------*/
+
+@media only screen and (min-width: 35rem) {
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* -----------Large--------------*/
+
+@media only screen and (min-width: 64rem) {
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}

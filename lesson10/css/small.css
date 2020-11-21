@@ -1,0 +1,321 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    color: #6c87d9;
+}
+
+h2 {
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #dcdef2;
+}
+
+nav button {
+    margin: 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+nav .activeLink a {
+    background-color: #411f8c;
+    color: #fff;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+nav .activeLink a:hover {
+    color: #000;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+header img {
+    float: left;
+    margin: 0.5rem 1rem;
+    max-height: 3.5rem;
+}
+
+header h1 {
+    margin: 1rem 0 0 0;
+   
+}
+
+header p {
+    margin: 0 0 2rem 0;
+}
+
+footer {
+    background-color: #dcdef2;
+    padding: 10px;
+}
+
+footer p {
+    margin: 1rem;
+}
+
+footer #ancilliaryInfo {
+    text-align: center;
+}
+
+footer p a {
+    color: #000;
+}
+
+.containWS .heroImg img {
+    width: 100%;
+}
+
+.containWS section {
+    padding: 1rem;
+    background-color: rgba(220, 222, 242, 0.8);
+}
+
+.containWS section h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.fivedayforecast {
+    display: none;
+}
+
+article img {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+article {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.contact {
+    background-color: #dcdef2;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(114, 114, 114, 0.6);
+}
+
+.contact .icons img {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+.map {
+    display: none;
+}
+
+#displayMessage {
+    background-color: #411f8c;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    display: none;
+}
+
+main .weatherImg img {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+main .weatherImg {
+    border: 1px solid rgba(114, 114, 114, 0.6);
+}
+
+.weatherImg figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+/* ----------------FORM----------------- */
+
+form fieldset {
+    margin: 2rem auto;
+    border: solid 1px #6c87d9;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 96%;
+}
+
+fieldset legend {
+    color: #555;
+    padding: 0.5rem;
+    margin: 0px 1rem;
+}
+
+form label.above, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+form label.above input, form label.above select, textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #dcdef2;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #555;
+    width: 100%;
+    background-color: rgba(220, 222, 242, 0.3);
+    outline: none;
+}
+
+form label.sbs {
+    display: block;
+    padding: 0.5rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #411f8c;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem auto 2rem auto;
+    width: 96%;
+}
+
+form input.submitBtn:hover {
+    background-color: #dcdef2;
+    color: #333;
+}
+
+form input.submitBtn:active {
+    outline: none;
+    background-color:  rgba(220, 222, 242, 0.5);
+}
+
+form label.above input:required {
+    border-left: solid 3px red;
+}
+
+form label.above input:required:valid {
+    border-left: solid 3px #6c87d9;
+}
+
+form #severityScale {
+    width: 85%;
+}
+
+form #severityvalue {
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.pageSubhead {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    padding-left: 1rem;
+}
+
+.key {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+
+/* --------------thank you----------------- */
+
+.standAlone {
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+/*-------------Home Page-----------------*/
+
+img.hero {
+    width: 100%;
+}
+
+div.cards section {
+    background-color: rgba(65, 31, 140, 0.3);
+}
+
+div.cards section p.motto {
+    font-style: italic;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+}
+
+div.cards section p.townInfo {
+    font-family: 'Playfair Dispaly', serif;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+div.cards section h3 {
+    padding-left: 1rem;
+}
+
+div.cards section img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.articles {
+    background-color: rgba(65, 31, 140, 0.3);
+    margin-bottom: 2rem;
+}
+
+div.articles button {
+    outline: none;
+    border: none;
+    background-color: #411f8c;
+    color: white;
+    margin: 1rem 1rem 2rem 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main .containWS section hr {
+    border: solid 1px #333;
+}
+
+

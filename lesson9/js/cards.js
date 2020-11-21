@@ -9,7 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     
     for (let i = 0; i < towns.length; i++) {
-        if (i == 1 || i == 4 || i == 5) {
+        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -24,7 +24,7 @@ fetch(requestURL)
         yrFound.textContent = 'Year Founded: ' + towns[i].yearFounded;
         pop.textContent = 'Population: ' + towns[i].currentPopulation;
         rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-        image.setAttribute('src', 'https://placeimg.com/640/480/nature');
+        image.setAttribute('src', 'images/' + towns[i].photo);
         image.setAttribute('alt', towns[i].name + ', Idaho');
         motto.setAttribute('class', 'motto');
         yrFound.setAttribute('class', 'townInfo');

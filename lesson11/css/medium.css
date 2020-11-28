@@ -1,0 +1,158 @@
+@media only screen and (min-width: 35rem) {
+
+    /*----------Navigation-----------*/
+
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        text-align: center;
+        border: none;
+    }
+
+    /*----------Header-----------*/
+
+    header img {
+        max-height: 5rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    /*-------------footer----------*/
+
+    footer section.contact img.map {
+        max-width: 80%;
+        display: block;
+        margin: 1.5rem;
+        justify-self: end;
+    }
+
+    footer section.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /*--------------Home - town cards--------------*/
+
+    div.cards section {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem auto;
+        border-radius: 5px;
+    }
+
+    div.cards section:nth-child(even) h2,
+    div.cards section:nth-child(even) p {
+        grid-column: 2;
+    }
+
+    div.cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        border-radius: 5px;
+    }
+
+    div.cards section:nth-child(odd) h2,
+    div.cards section:nth-child(odd) p {
+        grid-column: 1;
+    }
+
+    div.cards section:nth-child(odd) img {
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        border-radius: 5px;
+    }
+
+    div.cards section p.townInfo {
+        margin-top: 0;
+    }
+
+    /*------Home - article---------*/
+
+    main div.articles {
+        margin: 0 auto 2rem auto;
+        max-width: 90%;
+        border-radius: 5px;
+    }
+
+    main div.articles picture.articleImg img {
+        width: 60%;
+    }
+
+    /*---------town page----------*/
+
+    .containWS {
+        position: relative;
+    }
+    
+    .containWS section {
+        padding: 0 1rem;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        border-radius: 5px;
+    }
+
+    .containWS img {
+        margin-bottom: 2rem;
+    }
+    
+    .fivedayforecast {
+        display: table;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .fivedayforecast tr th {
+        border: 1px solid #111;
+        background-color: #dcdef2;
+        padding: 1rem;
+        width: 150px;
+    }
+
+    .fivedayforecast tr td {
+        padding: 1rem;
+        border: 1px solid #111;
+        text-align: center;
+    }
+
+    /* ---------------FORM------------------ */
+
+    form fieldset {
+        margin: 2rem 2%;
+        max-width: 40rem;
+    }
+
+    form input.submitBtn {
+        margin: 0 0 2rem 2%;
+        max-width: 20rem;
+    }
+
+    form label.above input, form label.above select, textarea {
+        max-width: 20rem;
+    }
+
+    form #severityScale {
+        width: 18rem;
+    }
+
+}

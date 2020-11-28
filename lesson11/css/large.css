@@ -1,0 +1,84 @@
+@media only screen and (min-width: 64rem) {
+
+    main {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+     /*------------Header--------------*/
+
+     header {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    header img {
+        max-height: 10rem;
+    }
+
+    header h1 {
+        font-size: 4.5rem;
+    }
+
+    /*---------navigation------------*/
+
+    nav ul {
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+
+    nav ul li a {
+        padding: .6rem 2%;
+    }
+
+    /*---------Footer---------*/
+
+    footer section.contact img.map {
+        max-width: 32rem;
+    }
+
+    /*--------------Home - town cards--------------*/
+
+    div.cards section {
+        display: block;
+        margin: 1rem;
+    }
+
+    div.cards section img {
+        width: 100%;
+    }
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem auto;
+        border-radius: 5px;
+    }
+
+    /*-----------Home - article------------*/
+
+    main div.articles {
+        max-width: 97%;
+
+    }
+
+    /*------------town page-------------*/
+
+    .imageContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main .weatherImg:hover {
+        box-shadow: 0 0 20px rgba(114, 114, 114, 0.6);
+    }
+
+    /* -----------Form--------------- */
+
+    form label.sbs {
+        padding: 0.2rem 0;
+    }
+
+    
+
+}

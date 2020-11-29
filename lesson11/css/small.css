@@ -231,6 +231,10 @@ div.upcomingEvents {
     padding: 1rem;
 }
 
+div.upcomingEvents ul li {
+    padding: 0.5rem;
+}
+
  /*----------------FORM-----------------*/ 
 
 form fieldset {

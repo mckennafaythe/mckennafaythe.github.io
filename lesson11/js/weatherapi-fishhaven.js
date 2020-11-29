@@ -3,7 +3,6 @@ const fishHavenApiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585
     fetch(fishHavenApiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         const wDescription = document.getElementById('description');
         const currentTemp = document.getElementById('curTemp');

@@ -62,14 +62,14 @@
 
     }
 
-    /*------------town page-------------*/
+    /*------------gallery-------------*/
 
-    .imageContain {
+    div.imageContain {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    main .weatherImg:hover {
+    main figure.weatherImg:hover {
         box-shadow: 0 0 20px rgba(114, 114, 114, 0.6);
     }
 

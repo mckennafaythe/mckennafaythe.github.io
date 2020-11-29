@@ -198,42 +198,33 @@ article {
 
 /*------------town page------------*/
 
-.containWS .heroImg img {
+main h2.pageTitle {
+    margin: 2rem 2rem 2rem 1rem;
+}
+
+/*----------town - weather summary---------*/
+
+div.containWS .heroImg img {
     width: 100%;
 }
 
-.containWS section {
+div.containWS section {
     padding: 1rem;
-    background-color: rgba(220, 222, 242, 0.8);
+    background-color: rgba(65, 31, 140, 0.3);
 }
 
-.containWS section h3 {
+div.containWS section h3 {
     font-size: 1.2rem;
     color: #333;
 }
 
-.fivedayforecast {
+/*-----------town - five day forecast---------*/
+
+table.fivedayforecast {
     display: none;
 }
 
-
-main .weatherImg img {
-    width: 100%;
-    padding: 1rem 1rem 0 1rem;
-}
-
-main .weatherImg {
-    border: 1px solid rgba(114, 114, 114, 0.6);
-}
-
-.weatherImg figcaption {
-    text-align: center;
-    padding: 10px;
-}
-
-
-/*
- ----------------FORM----------------- 
+ /*----------------FORM-----------------*/ 
 
 form fieldset {
     margin: 2rem auto;
@@ -311,27 +302,36 @@ form #severityvalue {
     padding: 1rem;
 }
 
-.pageSubhead {
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    padding-left: 1rem;
+main h3.pageSubhead {
+    margin-left: 1rem;
 }
 
-.key {
+fieldset p.key {
     font-size: 0.8rem;
     margin-top: 0;
 }
 
 
- --------------thank you----------------- 
+ /*--------------thank you-----------------*/
 
 .standAlone {
     margin: 1rem 1rem 3rem 1rem;
 }
 
+/*---------gallery page----------*/
 
-*/
+main figure.weatherImg img {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
 
+main figure.weatherImg {
+    border: 1px solid rgba(114, 114, 114, 0.6);
+    width: 95%;
+    margin: 0 auto 2rem auto;
+}
 
-
-
+figure.weatherImg figcaption {
+    text-align: center;
+    padding: 10px;
+}

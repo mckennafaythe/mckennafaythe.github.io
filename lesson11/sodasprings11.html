@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Clear Forecasts | Soda Springs</title>
+    <meta name="description" content="Created by McKenna Ashcraft for BYU-Idaho's WDD 230 Week 11 Assignment: The Weather Site">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+</head>
+
+<body>
+    <div id="displayMessage">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+
+    <header>
+        <img src="images/clearforecastslogo.png" alt="purple-to-blue gradient raindrop">
+        <h1>Clear Forecasts</h1>
+        <p>Your Weather, Now</p>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston11.html">Preston</a></li>
+            <li class="activeLink"><a href="#">Soda&nbsp;Springs</a></li>
+            <li><a href="fishhaven11.html">Fish&nbsp;Haven</a></li>
+            <li><a href="stormcenter11.html">Storm&nbsp;Center</a></li>
+            <li><a href="gallery11.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="pageTitle">Soda Springs, Idaho</h2>
+        <div class="containWS">
+            <picture class="heroImg">
+                <source media="(max-width: 400px)" srcset="images/sodasprings-small.jpg">
+                <source media="(max-width: 800px)" srcset="images/sodasprings-medium.jpg">
+                <img src="images/sodasprings.jpg" alt="spring mountain view">
+            </picture>
+            <section>
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: <span id="description"></span></p>
+                <p>Temperature: <span id="curTemp"></span> &deg;F</p>
+                <p>Windchill: <span id="windChill"></span> &deg;F</p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+            </section>
+        </div>
+
+        <table class="fivedayforecast">
+            <tr>
+                <th><span id="weekday1"></span></th>
+                <th><span id="weekday2"></span></th>
+                <th><span id="weekday3"></span></th>
+                <th><span id="weekday4"></span></th>
+                <th><span id="weekday5"></span></th>
+            </tr>
+            <tr>
+                <td><img id="weatherIcon1" src="" alt=""><span id="forecast1"></span> &deg;F</td>
+                <td><img id="weatherIcon2" src="" alt=""><span id="forecast2"></span> &deg;F</td>
+                <td><img id="weatherIcon3" src="" alt=""><span id="forecast3"></span> &deg;F</td>
+                <td><img id="weatherIcon4" src="" alt=""><span id="forecast4"></span> &deg;F</td>
+                <td><img id="weatherIcon5" src="" alt=""><span id="forecast5"></span> &deg;F</td>
+            </tr>
+        </table>
+
+        <div class="articles">
+            <article>
+                <h2>Article Title</h2>
+                <picture class="articleImg">
+                    <source media="(max-width: 400px)" srcset="images/bikersinrain-small.jpg">
+                    <source media="(max-width: 800px)" srcset="images/bikersinrain-medium.jpg">
+                    <img src="images/bikersinrain-large.jpg" alt="Cyclists race in the rain while onlookers stand with umbrellas">
+                </picture>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated.</p>
+                <p>It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to</p>
+            </article>
+        </div>
+        
+    </main>
+
+    <footer>
+        <section class="contact">
+            <img class="map" src="images/map-large.jpg" alt="map of St. Louis area">
+        <div class="infoContain">
+            <h3>
+                Clear Forecasts
+            </h3>
+            <p>1234 Five St.<br>Preston, ID 12345</p>
+            <p>Phone: 1-800-555-5555<br>Email: contact@clearforecasts.com</p>
+            <div class="icons">
+                <a href="#"><img src="images/fbicon.png" alt="facebook icon"></a>
+                <a href="#"><img src="images/twiticon.png" alt="twitter icon"></a>
+                <a href="#"><img src="images/yticon.png" alt="youtube icon"></a>
+            </div>
+        </div>
+        
+        </section>
+
+        <div id="ancilliaryInfo">
+            <p>&copy; <span id="currentYear"></span> | McKenna Ashcraft | Missouri | <a href="https://www.byui.edu/online">BYU-I Online Learning</a> | Data sourced from <a href="https://openweathermap.org/">OpenWeather</a></p>
+            <p><span id="currentDate"></span></p>
+        </div>
+    </footer>
+  
+    <script src="js/dates.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/pancake.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi-sodasprings.js"></script>
+    <script src="js/forecast-sodasprings.js"></script>
+
+  </body>
+
+</html>

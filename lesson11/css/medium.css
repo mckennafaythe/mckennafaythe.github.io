@@ -47,7 +47,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     /*--------------Home - town cards--------------*/
 
     div.cards section {
@@ -100,38 +100,47 @@
 
     /*---------town page----------*/
 
-    .containWS {
+    main h2.pageTitle {
+        margin: 2rem;
+    }
+
+    /*---------town - weather summary----------*/
+
+    div.containWS {
         position: relative;
     }
     
-    .containWS section {
+    div.containWS section {
         padding: 0 1rem;
         position: absolute;
         top: 2rem;
         left: 2rem;
         border-radius: 5px;
+        background-color: rgba(220, 222, 242, 0.8);
     }
 
-    .containWS img {
+    div.containWS img {
         margin-bottom: 2rem;
     }
+
+    /*------------town - five day forecast----------*/
     
-    .fivedayforecast {
+    table.fivedayforecast {
         display: table;
         margin: 0 auto;
         border-collapse: collapse;
     }
 
-    .fivedayforecast tr th {
-        border: 1px solid #111;
-        background-color: #dcdef2;
+    table.fivedayforecast tr th {
+        border: 1px solid #222;
+        background-color: rgba(65, 31, 140, 0.3);
         padding: 1rem;
         width: 150px;
     }
 
-    .fivedayforecast tr td {
+    table.fivedayforecast tr td {
         padding: 1rem;
-        border: 1px solid #111;
+        border: 1px solid #222;
         text-align: center;
     }
 
@@ -153,6 +162,23 @@
 
     form #severityScale {
         width: 18rem;
+    }
+
+    main h3.pageSubhead {
+        margin-left: 2rem;
+    }
+
+    /*----------thank you-----------*/
+
+    .standAlone {
+        margin: 1rem 1rem 3rem 2rem;
+    }
+
+    /*----------gallery----------*/
+
+    div.imageContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 }

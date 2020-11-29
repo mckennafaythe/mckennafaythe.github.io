@@ -3,7 +3,6 @@ const sodaSpringsApiURL = "https://api.openweathermap.org/data/2.5/weather?id=56
     fetch(sodaSpringsApiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
 
         const wDescription = document.getElementById('description');
         const currentTemp = document.getElementById('curTemp');

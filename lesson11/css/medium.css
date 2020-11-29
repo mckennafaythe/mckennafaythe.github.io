@@ -132,7 +132,7 @@
     }
 
     table.fivedayforecast tr th {
-        border: 1px solid #222;
+        border: 1px solid #878794;
         background-color: rgba(65, 31, 140, 0.3);
         padding: 1rem;
         width: 150px;
@@ -140,8 +140,15 @@
 
     table.fivedayforecast tr td {
         padding: 1rem;
-        border: 1px solid #222;
+        border: 1px solid#acadbd;
         text-align: center;
+    }
+
+    /*--------town - upcoming events------------*/
+
+    div.upcomingEvents {
+        max-width: 90%;
+        border-radius: 5px;
     }
 
     /* ---------------FORM------------------ */

@@ -8,7 +8,7 @@ fetch(eventsURL)
     const towns = jsonObject['towns'];
     
     for (let i = 0; i < towns.length; i++) {
-        if (towns[i].name == "Fish Haven") {
+        if (towns[i].name == "Preston") {
 
           let townEvents = document.createElement('ul');
 
@@ -28,5 +28,3 @@ fetch(eventsURL)
         }
     }
     });
-
-   

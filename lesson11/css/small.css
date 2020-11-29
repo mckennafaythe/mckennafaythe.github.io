@@ -223,11 +223,19 @@ table.fivedayforecast {
     display: none;
 }
 
+/*--------town - upcoming events------------*/
+
+div.upcomingEvents {
+    background-color: rgba(65, 31, 140, 0.3);
+    margin: 0 auto 2rem auto;
+    padding: 1rem;
+}
+
  /*----------------FORM-----------------*/ 
 
 form fieldset {
     margin: 2rem auto;
-    border: solid 1px #6c87d9;
+    border: solid 1px #acadbd;
     border-radius: 5px;
     padding: 1rem;
     width: 96%;
@@ -276,7 +284,7 @@ form input.submitBtn {
 
 form input.submitBtn:hover {
     background-color: #dcdef2;
-    color: #333;
+    color: #222;
 }
 
 form input.submitBtn:active {
@@ -325,7 +333,8 @@ main figure.weatherImg img {
 }
 
 main figure.weatherImg {
-    border: 1px solid rgba(114, 114, 114, 0.6);
+    border: 1px solid #acadbd;
+    border-radius: 5px;
     width: 95%;
     margin: 0 auto 2rem auto;
 }

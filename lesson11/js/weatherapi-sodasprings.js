@@ -14,4 +14,18 @@ const sodaSpringsApiURL = "https://api.openweathermap.org/data/2.5/weather?id=56
         humidityVal.innerHTML = jsObject.main.humidity;
         windSpeedVal.innerHTML = jsObject.wind.speed;
 
+        function windChill() {
+            let t = parseFloat(document.getElementById('curTemp').innerHTML);
+            let s = parseFloat(document.getElementById('windSpeed').innerHTML);
+            let output = "N/A";
+            if (t <= 50 && s > 3) {
+                let f = (35.74 + (0.615*t)) - (35.75 * (Math.pow(s, 0.16))) + (0.4275 * (t * (Math.pow(s, 0.16))));
+                output = Math.round(f);
+            }
+        
+            document.getElementById("windChill").innerHTML = output;
+        }
+        
+        windChill();
+
     });

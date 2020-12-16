@@ -96,6 +96,7 @@ main div.action section {
 
 main div.action section h2 {
     color: black;
+    text-shadow: 4px 4px 10px white;
 }
 
 main div.action section a {

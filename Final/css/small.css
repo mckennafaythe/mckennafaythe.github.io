@@ -117,6 +117,10 @@ main div.action section a {
     box-shadow: 3px 3px 10px black;
 }
 
+main div.action section a:hover {
+    background-color: rgb(251, 133, 0)
+}
+
 main div.action section h2 em {
     font-size: 3rem;
     font-family: 'East Sea Dokdo', cursive;

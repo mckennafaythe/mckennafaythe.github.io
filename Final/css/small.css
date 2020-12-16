@@ -81,6 +81,15 @@ nav ul.hide {
     display: none;
 }
 
+nav .activeLink a {
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: rgba(251, 133, 0, .8)
+}
+
 /*----------hero and call to action---------*/
 
 main div.action {

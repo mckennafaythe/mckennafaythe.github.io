@@ -30,6 +30,18 @@
         border: none;
     }
 
+    nav .activeLink a {
+        border-bottom: 5px solid rgba(251, 133, 0, .8);
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    nav ul li a:hover {
+        background-color: #023047;
+        font-style: italic;
+        font-weight: bold;
+    }
+
     /*---------call to action---------*/
 
     main div.action section {

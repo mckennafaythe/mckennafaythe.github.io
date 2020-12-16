@@ -96,7 +96,7 @@ main div.action section {
 
 main div.action section h2 {
     color: black;
-    text-shadow: 4px 4px 10px white;
+    text-shadow: 4px 4px 30px white;
 }
 
 main div.action section a {
@@ -143,7 +143,7 @@ main div.rental picture img, main div.rental img {
 /*------------ weather summary ----------*/
 
 main section.weatherSummary {
-    background-color: #219EBC;
+    border: 2px solid white;
     padding: 15px;
 }
 
@@ -152,11 +152,12 @@ main section.weatherSummary {
 table.threeDayForecast {
     display: table;
     margin: 0 auto 6rem;
+    border-collapse: collapse;
 }
 
 table.threeDayForecast tr th {
     font-weight: 400;
-    background-color: #219EBC;
+    border: 2px solid white;
     padding: .5rem;
     width: 8rem;
 }

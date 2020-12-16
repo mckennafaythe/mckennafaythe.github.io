@@ -157,6 +157,7 @@ table.threeDayForecast tr th {
     font-weight: 400;
     background-color: #219EBC;
     padding: .5rem;
+    width: 8rem;
 }
 
 table.threeDayForecast tr td {

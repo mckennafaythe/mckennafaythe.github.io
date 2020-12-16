@@ -1,0 +1,213 @@
+body {
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+body div#displayMessage {
+    display: none;
+}
+
+/*----------header----------*/
+
+header {
+    position: relative;
+}
+
+header section {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -154px;
+}
+
+header section h1, header section p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header section h1 {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 7rem;
+}
+
+header section p {
+    position: absolute;
+    top: 7rem;
+    left: 50%;
+    margin-left: -85px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+header picture.headerImg img {
+    max-width: 100%;
+}
+
+/*---------navigation-----------*/
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav {
+    background-color: #219EBC;
+    margin: 0 0 6px;
+}
+
+nav button {
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/*----------hero and call to action---------*/
+
+main div.action {
+    position: relative;
+}
+
+main div.action section {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -153px;
+}
+
+main div.action section a {
+    text-decoration: none;
+    background-color: #FFB703;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #023047;
+}
+
+main div.action section h2 em {
+    font-size: 3rem;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+main div.action picture.heroImg img {
+    max-width: 100%;
+}
+
+/*---------- rental summaries-----------*/
+
+main h2.sectionTitle {
+    margin: 3rem auto .5rem;
+}
+
+main div.rental {
+    position: relative;
+}
+
+main div.rental p {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    text-align: left;
+}
+
+main div.rental picture img, main div.rental img {
+    max-width: 100%;
+}
+
+/*------------ weather summary ----------*/
+
+main section.weatherSummary {
+    background-color: #219EBC;
+    padding: 15px;
+}
+
+main section.weatherSummary p {
+    color: white;
+}
+
+/*-------------forecast------------*/
+
+table.threeDayForecast {
+    display: table;
+    margin: 0 auto 6rem;
+    border-collapse: collapse;
+}
+
+table.threeDayForecast tr th {
+    color: white;
+    font-weight: 400;
+    background-color: #219EBC;
+    border: 2px solid #219EBC;
+    padding: .5rem;
+}
+
+table.threeDayForecast tr td {
+    padding: 1rem;
+    border: 2px solid #219EBC;
+}
+
+/*------------footer-------------*/
+
+footer {
+    background-color: #023047;
+    color: white;
+}
+
+footer section.contact img.map {
+    max-width: 80%;
+    margin: 2rem 2rem 0;
+    border: 2px solid white;
+}
+
+footer section.contact div.infoContain {
+    margin-left: 2rem;
+    text-align: left;
+}
+
+footer section.contact div.infoContain h4 {
+    margin-top: -15px;
+    font-style: italic;
+}
+
+footer div.icons {
+    margin-top: 4rem;
+}
+
+footer div.icons a img {
+    width: 50px;
+    padding: 20px;
+}
+
+footer div p a {
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+
+footer div#ancilliaryInfo p#modDate {
+    padding: 2rem;
+}

@@ -1,0 +1,74 @@
+@media only screen and (min-width: 35rem) {
+
+    /*----------header----------*/
+
+    header section {
+        top: 2rem;
+    }
+
+    /*----------Navigation-----------*/
+
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        text-align: center;
+        border: none;
+    }
+
+    /*---------call to action---------*/
+
+    main div.action section {
+        top: 4rem;
+        margin-left: -235px;
+    }
+
+    main div.action section h2 em {
+        font-size: 5rem;
+    }
+
+    /*---------- rental summaries-----------*/
+
+    main section.rentals, main section#jeeps {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section.rentals div:nth-child(3) {
+        grid-column: 1 / span 2;
+    }
+
+    /*------------- weather summary----------*/
+
+    main section.weatherSummary {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    /*------------footer-------------*/
+
+    footer section.contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer section.contact div.infoContain {
+        margin: 2rem 0;
+    }
+
+}

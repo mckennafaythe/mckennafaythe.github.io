@@ -31,7 +31,7 @@
     }
 
     nav .activeLink a {
-        border-bottom: 5px solid rgba(251, 133, 0, .8);
+        border-bottom: 5px solid rgb(251, 133, 0);
         font-style: normal;
         font-weight: normal;
     }

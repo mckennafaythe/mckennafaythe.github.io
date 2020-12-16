@@ -1,0 +1,58 @@
+{ 
+    "rentals": [
+        { 
+            "type": "Honda Metro Scooter",
+            "image": "metro.jpg",
+            "description": "white Honda scooter with red and black accents",
+            "maxpersons": "1",
+            "reservation": [{"halfday": "$20 USD", "fullday": "$30 USD"}],
+            "walkin": [{"halfday": "$25 USD", "fullday": "$35 USD"}]
+        },
+        { 
+            "type": "Honda Dio Scooter",
+            "image": "dio.jpg",
+            "description": "parked orange and silver scooters",
+            "maxpersons": "2",
+            "reservation": [{"halfday": "$30 USD", "fullday": "$40 USD"}],
+            "walkin": [{"halfday": "$35 USD", "fullday": "$45 USD"}]
+        },
+        { 
+            "type": "Honda PCX150 Scooter",
+            "image": "pcx150.jpg",
+            "description": "cream colored scooter parked on the beach with a helmet strapped to the handle",
+            "maxpersons": "2",
+            "reservation": [{"halfday": "$40 USD", "fullday": "$50 USD"}],
+            "walkin": [{"halfday": "$45 USD", "fullday": "$55 USD"}]
+        },
+        { 
+            "type": "Honda Pioneer ATV",
+            "image": "pioneer.jpg",
+            "description": "Woman with goggles pulled up on her forhead drives in a blue ATV",
+            "maxpersons": "4",
+            "reservation": [{"halfday": "$50 USD", "fullday": "$70 USD"}],
+            "walkin": [{"halfday": "$60 USD", "fullday": "$80 USD"}]
+        },
+        { 
+            "type": "Jeep Wrangler",
+            "image": "2door.jpg",
+            "description": "man stands on top of a white 2door Jeep looking over hill to the ocean",
+            "transmission": "manual",
+            "air": "Open Air",
+            "doors": "2-door",
+            "maxpersons": "4",
+            "reservation": [{"halfday": "$60 USD", "fullday": "$85 USD"}],
+            "walkin": [{"halfday": "$70 USD", "fullday": "$90 USD"}]
+        },
+        { 
+            "type": "Jeep Wrangler",
+            "image": "4door.jpg",
+            "description": "Red 4door Jeep parked with the sun setting behind a mountain range",
+            "transmission": "manual",
+            "air": "A/C",
+            "doors": "4-door",
+            "maxpersons": "5",
+            "reservation": [{"halfday": "$70 USD", "fullday": "$100 USD"}],
+            "walkin": [{"halfday": "$85 USD", "fullday": "$125 USD"}]
+        }
+    ]
+}

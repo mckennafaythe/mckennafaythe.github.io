@@ -162,14 +162,13 @@ main section.weatherSummary {
 
 /*-------------forecast------------*/
 
-table.threeDayForecast {
+table.threeDayForecast, table {
     display: table;
     margin: 0 auto 6rem;
     border-collapse: collapse;
 }
 
-table.threeDayForecast tr th {
-    font-weight: 400;
+table.threeDayForecast tr th, tbody#rentalTable tr th, tbody#rentalTable tr td {
     border: 2px solid white;
     padding: .5rem;
     width: 8rem;
@@ -215,3 +214,19 @@ footer div p a {
 footer div#ancilliaryInfo p#modDate {
     padding: 2rem;
 }
+
+/*--------Rentals-----------*/
+
+main h2.pageTitle {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+tbody#rentalTable tr td img {
+    max-width: 100%;
+}
+
+tbody#rentalTable {
+    overflow: scroll;
+}
+

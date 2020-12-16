@@ -1,9 +1,5 @@
 fetch("data/rentalData.json")
     .then((response) => response.json())
-    .then((json => console.log(json))); 
-    
-    fetch("json/rentalData.json")
-    .then((response) => response.json())
     .then((Object) => {
 
         for (let i = 0; i < Object.rentals.length; i++) {

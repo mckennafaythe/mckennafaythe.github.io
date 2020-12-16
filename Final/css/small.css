@@ -2,6 +2,8 @@ body {
     font-size: 16px;
     font-family: 'Spartan', sans-serif;
     text-align: center;
+    color: white;
+    background-color: #023047;
 }
 
 h1, h2, h3, h4 {
@@ -29,7 +31,6 @@ header section h1, header section h2 {
     margin: 0;
     padding: 0;
     text-align: center;
-    color: white;
 }
 
 header section h1 {
@@ -44,6 +45,7 @@ header section h2 {
     margin-left: -85px;
     font-size: 1.5rem;
     font-weight: 300;
+    font-style: italic;
 }
 
 header picture.headerImg img {
@@ -56,11 +58,6 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0; 
-}
-
-nav {
-    background-color: #023047;
-    margin: 0 0 6px;
 }
 
 nav button {
@@ -97,13 +94,17 @@ main div.action section {
     margin-left: -153px;
 }
 
+main div.action section h2 {
+    color: black;
+}
+
 main div.action section a {
     text-decoration: none;
     background-color: #023047;
     color: white;
     padding: 15px 20px;
     border-radius: 30px;
-    box-shadow: 3px 3px 10px #023047;
+    box-shadow: 3px 3px 10px black;
 }
 
 main div.action section h2 em {
@@ -118,7 +119,7 @@ main div.action picture.heroImg img {
 /*---------- rental summaries-----------*/
 
 main h2.sectionTitle {
-    margin: 3rem auto .5rem;
+    margin: 3rem auto 1rem;
 }
 
 main div.rental {
@@ -129,7 +130,6 @@ main div.rental p {
     position: absolute;
     top: 1rem;
     left: 2rem;
-    color: white;
     text-shadow: 2px 2px 10px black;
     text-align: left;
     font-weight: 600;
@@ -146,37 +146,24 @@ main section.weatherSummary {
     padding: 15px;
 }
 
-main section.weatherSummary p {
-    color: white;
-}
-
 /*-------------forecast------------*/
 
 table.threeDayForecast {
     display: table;
     margin: 0 auto 6rem;
-    border-collapse: collapse;
 }
 
 table.threeDayForecast tr th {
-    color: white;
     font-weight: 400;
     background-color: #219EBC;
-    border: 2px solid #219EBC;
     padding: .5rem;
 }
 
 table.threeDayForecast tr td {
     padding: 1rem;
-    border: 2px solid #219EBC;
 }
 
 /*------------footer-------------*/
-
-footer {
-    background-color: #023047;
-    color: white;
-}
 
 footer section.contact img.map {
     max-width: 80%;

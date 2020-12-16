@@ -43,12 +43,12 @@
 
     /*---------- rental summaries-----------*/
 
-    main section.rentals, main section#jeeps {
+    main div.rentals, main div#jeeps {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    main section.rentals div:nth-child(3) {
+    main div.rentals div:nth-child(3) {
         grid-column: 1 / span 2;
     }
 

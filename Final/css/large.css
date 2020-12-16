@@ -15,15 +15,15 @@
 
     /*---------- rental summaries-----------*/
 
-    main section.rentals {
+    main div.rentals {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    main section.rentals div:nth-child(3) {
+    main div.rentals div:nth-child(3) {
         grid-column: 3 / span 1;
     }
 
-    main section#jeeps {
+    main div#jeeps {
         grid-template-columns: 1fr 1fr;
     }
 

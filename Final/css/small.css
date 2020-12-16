@@ -226,7 +226,7 @@ tbody#rentalTable tr td img {
     max-width: 100%;
 }
 
-tbody#rentalTable {
-    overflow: scroll;
+main div#tableContainer {
+    overflow-x: auto;
 }
 

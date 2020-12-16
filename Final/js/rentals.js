@@ -1,6 +1,4 @@
-
-
-    fetch("json/rentalData.json")
+fetch("data/rentalData.json")
     .then((response) => response.json())
     .then((json => console.log(json))); 
     

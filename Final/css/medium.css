@@ -74,18 +74,44 @@
 
     /*------------footer-------------*/
 
-    footer section.contact {
+    section.contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    footer section.contact div.infoContain {
+    section.contact div.infoContain {
         margin: 2rem 0;
     }
 
     /*----------reservations---------*/
 
     main section#rentalAgreement, form fieldset {
-        max-width: 70rem;
+        max-width: 40rem;
     }
+
+    /*-----------tours----------*/
+
+    main div.tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main div.tours img {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    main div.tours div h2, main div.tours div p {
+        text-align: left;
+    }
+
+    main div.tours h2 {
+        margin: 4rem 0 .5rem;
+    }
+
+    main div.tours p {
+        margin: 0;
+    }
+
+
 }

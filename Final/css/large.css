@@ -35,18 +35,29 @@
 
     /*------------footer-------------*/
 
-    footer section.contact {
+    section.contact {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
-    footer section.contact div.infoContain {
+    section.contact div.infoContain {
         margin: 1rem;
     }
 
     /*---------reservations-----------*/
 
-   
+    main section#rentalAgreement, form fieldset {
+        max-width: 60rem;
+    }
 
+    /*---------tours------------*/
 
+    main div.tours {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
 }

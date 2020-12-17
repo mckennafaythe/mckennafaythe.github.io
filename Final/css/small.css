@@ -64,7 +64,7 @@ nav button {
     padding: .5rem 1rem;
     background-color: transparent;
     border: none;
-    font-size: 2rem;
+    font-size: 3rem;
     outline: none;
     cursor: pointer;
     color: white;
@@ -182,20 +182,26 @@ table.threeDayForecast tr td {
 
 main hr {
     margin-top: 10rem;
+    max-width: 90%;
 }
 
-footer section.contact img.map {
+section.contact iframe {
     max-width: 80%;
     margin: 2rem 2rem 0;
-    border: 2px solid white;
 }
 
-footer section.contact div.infoContain {
+section.contact div.infoContain {
     margin-left: 2rem;
     text-align: left;
 }
 
-footer section.contact div.infoContain h4 {
+section.contact div.infoContain h3 {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 3rem;
+    margin: .4rem;
+}
+
+section.contact div.infoContain h4 {
     margin-top: -15px;
     font-style: italic;
 }
@@ -293,4 +299,20 @@ form input:required:valid, form select:required:valid  {
     border-left: solid 6px #219EBC;
 }
 
+/*------------contact------------*/
 
+main section.contact {
+    margin-bottom: 6rem;
+}
+
+/*-----------tours----------*/
+
+main div.tours img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+main div.tours h2, main div.tours p, main h3.subhead {
+    max-width: 80%;
+    margin: 1rem auto;
+}

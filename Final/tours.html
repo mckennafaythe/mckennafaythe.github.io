@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>~Scoots | Rentals</title>
+    <title>~Scoots | Tours</title>
     <meta name="description" content="Reserve rental ATVs, scooters, and Jeeps to explore the beautiful land of Cozumel, Mexico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -35,38 +35,58 @@
         <button onclick="toggleMenu()">&equiv;</button>
         <ul id="mainNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="activeLink"><a href="rentals.html">Rentals</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
             <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="tours.html">Tours</a></li>
+            <li class="activeLink"><a href="tours.html">Tours</a></li>
             <li><a href="contact.html">Contact&nbsp;Us</a></li>
         </ul>
     </nav>
 
     <main>
        
-        <h2 class="pageTitle">Rentals</h2>
-        <div id="tableContainer">
-            <table>
-                <tbody id="rentalTable">
-                    <tr>
-                        <th colspan="3">&nbsp;</th>
-                        <th colspan="2">Reservation</th>
-                        <th colspan="2">Walk-In</th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">Rental Type</th>
-                        <th>Maximum Persons</th>
-                        <th>Half Day<br>3 hours</th>
-                        <th>Full Day</th>
-                        <th>Half Day<br>3 hours</th>
-                        <th>Full Day</th>
-                    </tr>
-                </tbody>
-            </table>
+        <h2 class="pageTitle">Tours</h2>
+        <h3 class="subhead">Creating unforgettable memories at the most iconic Cozumel locations</h3>
+
+        <div class="tours">
+            <img src="images/atv.jpg" alt="male in red helmet rides ATV in the sand">
+            <div>
+                <h2>ATV Adventure to Jade Cavern</h2>
+                <p>Let us take the lead in intruducing you to one of Cozumel's most prized locations: Jade Cavern.</p>
+            </div>
+
+            <img src="images/sail.jpg" alt="shirtless male hangs off the side of a boat as it sails though the water">
+            <div>  
+                <h2>Catamaran Sailing Tour to Passion Island</h2>
+                <p>Take an exciting yet relaxing sailing trip with your sweethear out to Passion Island.</p>
+            </div>
+
+            <img src="images/snorkel.jpg" alt="woman swims in the distance with some fish">
+            <div>
+                <h2>Cozumel Snorkeling Tour</h2>
+                <p>It's a whole other world to explore under the ocean! Don't miss out on this incredible experience!</p>
+            </div>
+
+            <img src="images/jeep.jpg" alt="a person adjust some things on the outside of a green vehicle">
+            <div>
+                <h2>Private Jeep Excursion in Cozumel with Lunch</h2>
+                <p>Explore the island like a local! Delicious local fare included.</p>
+            </div>
+
+            <img src="images/horseback.jpg" alt="a small group of people ride on horses in the sand">
+            <div>  
+                <h2>Cozumel Beach Horesback Riding Tour</h2>
+                <p>There's nothing quite like a lovely walk on the beach. Doing so on horseback just makes it that much more special.</p>
+            </div>
+
+            <img src="images/food.jpg" alt="a plate of rice and chicken">
+            <div>
+                <h2>Cozumel Food Tour</h2>
+                <p>Attention, foodies! This is the tour for you. Get a taste of what Cozumel is all about!</p>
+            </div>
         </div>
+
         <hr>
 
-        
     </main>
 
     <footer>
@@ -100,8 +120,7 @@
     </footer>
   
     <script src="js/date.js" defer></script>
-    <script src="js/menu.js"></script>
-    <script src="js/rentals.js" ></script>
+    <script src="js/menu.js" defer></script>
 
   </body>
 

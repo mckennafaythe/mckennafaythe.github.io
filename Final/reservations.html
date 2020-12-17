@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>~Scoots | Reservations</title>
+    <meta name="description" content="Rent ATVs, scooters, and Jeeps to explore the beautiful land of Cozumel, Mexico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+</head>
+
+<body>
+
+    <header>
+        <picture class="headerImg">
+            <source media="(max-width: 450px)" srcset="images/header-small.jpg">
+            <source media="(max-width: 800px)" srcset="images/header-medium.jpg">
+            <img src="images/header.jpg" alt="Sunset over the ocean on a beach in Cozumel, Mexico">
+        </picture>
+        <section>
+            <h1>~SCOOTS</h1>
+            <h2>Explore More</h2>
+        </section>
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&equiv;</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li class="activeLink"><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact&nbsp;Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2 class="pageTitle">Reservations</h2>
+        <section id="rentalAgreement">
+            <h2>Rental Agreement</h2>
+            <ul>
+                <li>A $50 USD security deposit is required to confirm reservations</li>
+                <li>A valid drivers license is required in hand at time of rental</li>
+                <li>No one under 12 years of age are allowed to ride on the scooters</li>
+                <li>Fuel charge not included</li>
+                <li>Unlimited mileage</li>
+                <li>Liability insurance is free of charge</li>
+                <li>Reservations rate requires 24 hour prior notification</li>
+                <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals</li>
+                <li>Payment via Google Pay, cash, credit card, debit card, or PayPal</li>
+                <li>Rentals may be returned to either location</li>
+            </ul>
+        </section>
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+    
+                <legend>Rental Details</legend>
+
+                <label class="above" for="date">Date *</label>
+                    <input type="date" id="date" name="reserveDate" required>
+                
+                <div class="above">Half Day or Full Day *</div>
+                <label class="sbs">
+                    <input type="radio" name="period" value="half"> Half
+                </label>
+                <label class="sbs">
+                    <input type="radio" name="period" value="full"> Full
+                </label>
+
+                <label class="above" for="type">Rental Type *</label>
+                    <select name="rentalType" id="type" required>
+                        <option value="" disabled selected>Select Vehicle...</option>
+                        <option value="Honda Metropolitan">Honda Metropolitan</option>
+                        <option value="Honda Dio">Honda Dio</option>
+                        <option value="Honda PCX150">Honda PCX150</option>
+                        <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                        <option value="Jeep Wrangler 2-door">Jeep Wrangler 2-door</option>
+                        <option value="Jeep Wrangler 4-door">Jeep Wrangler 4-door</option>
+                    </select>
+                
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Personal Details</legend>
+
+                <label class="above" for="name">Full Name *</label>
+                    <input type="text" name="name" id="name" required pattern="[a-zA-Z ]{5,}">
+
+                <label class="above" for="phone">Phone Number</label>
+                    <input type="tel" name="phone" id="name">
+            
+                <label class="above" for="email">Email *</label>
+                    <input type="email" name="email" id="email" placeholder="janedoe@email.com" required>
+
+                <label class="above" for="location">Home State and/or Country</label>
+                    <input type="text" name="location" id="location">
+
+                <label class="above" for="cruise">Cruise Line</label>
+                    <select name="cruisLine" id="cruise">
+                        <option value="" disabled selected>Select Cruise Line...</option>
+                        <option value="N/A">N/A</option>
+                        <option value="Carnival">Carnival</option>
+                        <option value="Celebrity">Celebrity</option>
+                        <option value="Crystal">Crystal</option>
+                        <option value="Disney">Disney</option>
+                        <option value="Holland America">Holland America</option>
+                        <option value="Norwegian (NCL)">Norwegian (NCL)</option>
+                        <option value="Princess">Princess</option>
+                        <option value="Regent Seven Seas">Regent Seven Seas</option>
+                        <option value="Royal Caribbean">Royal Caribbean</option>
+                    </select>
+
+            </fieldset>
+
+            <fieldset>
+    
+                <legend>Additional Information</legend>
+    
+                <textarea placeholder="Special accomodations, comments, drop off location, etc." name="comments" rows="5" title="Additional comments"></textarea>
+    
+            </fieldset>
+
+            <input type="submit" value="Complete Your Reservation" class="submitBtn">
+
+        </form>
+
+        <hr>
+ 
+    </main>
+
+    <footer>
+        <section class="contact">
+            <img class="map" src="images/map1.png" alt="map of Playa del Carmen, Cozumel, Mexico">
+            <div class="infoContain">
+                <h3>~Scoots</h3>
+                <h4>Playa del Carmen Location</h4>
+                <p>Av. Rafael E. Melgar,<br>Centro,<br>77600 San Miguel de Cozumel,<br>Q.R., Mexico</p>
+                <p>Phone: +52 555 123 4567<br>Email: gabrielle@cozumelscoots.com</p>
+            </div>
+            <img class="map" src="images/map2.png" alt="map of Puerta Maya, Cozumel, Mexico">
+            <div class="infoContain">
+                <h3>~Scoots</h3>
+                <h4>Terminal Puerta Maya Location</h4>
+                <p>Carretera Chankanaab km 4.5,<br>Carretera Costera Sur,<br>77600 San Miguel de Cozumel,<br>Q.R., Mexico</p>
+                <p>Phone: +52 555 123 4567<br>Email: jose@cozumelscoots.com</p>
+            </div>
+        </section>
+
+        <div class="icons">
+            <a href="https://www.facebook.com"><img src="images/fbicon.svg" alt="facebook icon"></a>
+            <a href="https://www.twitter.com"><img src="images/twiticon.svg" alt="twitter icon"></a>
+            <a href="https://www.instagram.com"><img src="images/instaicon.svg" alt="instagram icon"></a>
+        </div>
+
+        <div id="ancilliaryInfo">
+            <p>&copy; <span id="currentYear"></span> | McKenna Ashcraft | Missouri | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
+            <p id="modDate">Last Updated: <span id="lastModifiedDate"></span> </p>
+        </div>
+    </footer>
+  
+    <script src="js/date.js" defer></script>
+    <script src="js/menu.js" defer></script>
+
+  </body>
+
+</html>

@@ -162,9 +162,9 @@ main section.weatherSummary {
 
 /*-------------forecast------------*/
 
-table.threeDayForecast, table {
+table {
     display: table;
-    margin: 0 auto 6rem;
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
@@ -179,6 +179,10 @@ table.threeDayForecast tr td {
 }
 
 /*------------footer-------------*/
+
+main hr {
+    margin-top: 10rem;
+}
 
 footer section.contact img.map {
     max-width: 80%;
@@ -220,6 +224,7 @@ footer div#ancilliaryInfo p#modDate {
 main h2.pageTitle {
     margin-top: 5rem;
     font-size: 2.5rem;
+    max-width: 100%;
 }
 
 tbody#rentalTable tr td img {
@@ -229,4 +234,63 @@ tbody#rentalTable tr td img {
 main div#tableContainer {
     overflow-x: auto;
 }
+
+/*---------reservations----------*/
+
+main section#rentalAgreement {
+    text-align: left;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+main section#rentalAgreement ul li {
+    padding: .5rem;
+}
+
+form fieldset {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    margin: 3rem auto;
+}
+
+fieldset legend {
+    font-weight: bold;
+    padding: .5rem;
+    margin: 0 1rem;
+}
+
+form .above {
+    padding: 1rem 0 .2rem;
+    font-weight: 600;
+}
+
+form input, form select, textarea {
+    padding: 1rem;
+    margin: 1rem 0;
+    outline: none;
+}
+
+form label.sbs {
+    padding: .5rem 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+form input:required, form select:required {
+    border-left: solid 6px #FB8500;
+}
+
+form input:required:valid, form select:required:valid  {
+    border-left: solid 6px #219EBC;
+}
+
 

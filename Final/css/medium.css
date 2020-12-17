@@ -83,4 +83,9 @@
         margin: 2rem 0;
     }
 
+    /*----------reservations---------*/
+
+    main section#rentalAgreement, form fieldset {
+        max-width: 70rem;
+    }
 }
